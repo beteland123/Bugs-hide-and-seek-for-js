@@ -7,7 +7,7 @@ hamburgerMenu.addEventListener('click', () => {
   document.querySelector('.mobile-menu').style.display = 'flex';
 });
 
-mobileClose.addEventListener('click', () => {
+mobileClose.addEventListener(click, () => {
   // show the mobile menu
   document.querySelector('.mobile-menu').style.display = 'none';
 });
@@ -15,6 +15,6 @@ mobileClose.addEventListener('click', () => {
 // close menu on click mobile-nav-item
 mobileNavItems.forEach((item) => {
   item.addEventListener('click', () => {
-    document.querySelector('.mobile-menu').style.display = 'none';
+    document.querySelector('mobile-menu').style.display = 'none';
   });
 });
